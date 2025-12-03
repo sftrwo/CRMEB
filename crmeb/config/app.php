@@ -49,7 +49,7 @@ return [
     // 没有开启消息队列命令或者定时任务命令的提醒开关
     'console_remind'   => true,
     // admin路由前缀
-    'admin_prefix'     => 'admin1',
+    'admin_prefix'     => 'admin',
     //代码生成功能生成前端文件的路径
     'admin_template_path' => dirname(root_path()) . DS . 'template' . DS . 'admin' . DS . 'src' . DS,
     //在保存crud的是否是否直接生成文件
